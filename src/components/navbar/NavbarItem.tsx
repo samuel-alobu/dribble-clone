@@ -6,7 +6,7 @@ function NavbarItem({ name, icon }: { name: string; icon: React.ReactNode }) {
   const [showItems, setShowItems] = useState(false);
   return (
     <div
-      className="flex items-center gap-2 text-lg font-[600] hover:text-gray-600"
+      className="flex items-center gap-2 text-lg font-[600] hover:text-gray-600 font-wix-madefor-display"
       onMouseOver={() => setShowItems(!showItems)}
     >
       <a className="" href="#">
